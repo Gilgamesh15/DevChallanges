@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        background-color: #fafaf9;
+      }
+      .card {
+        width: 325px;
+        background-color: #ffffff;
+        border-radius: calc(1rem);
+        padding: 1rem;
+        box-shadow: 10px 10px 15px 0px #20293a15;
+      }
+      .tag {
+        background-color: #e6d6fc;
+        color: #883ae1;
+        font-size: 0.625rem;
+        padding: 0.25rem 1rem;
+        font-weight: 600;
+        display: flex;
+        margin: 0.75rem 0;
+        max-width: fit-content;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+      }
+      .card-title {
+        font-weight: 500;
+        font-size: 1.125rem;
+        margin-bottom: -0.5rem;
+        color: #20293a;
+      }
+      .card-body {
+        font-size: 0.875rem;
+        font-weight: 200;
+        line-height: 1.275rem;
+        color: #6c727f;
+      }
+      .card-small-text {
+        font-size: 0.75rem;
+        color: #6c727f;
+        font-weight: 300;
+        margin-top: 1.25rem;
+        margin-bottom: 0.25rem;
+      }
+      .card-divide {
+        border-color: #e5eaf0;
+        opacity: 0.2;
+        width: calc(100% + 2rem);
+        position: relative;
+        right: 1rem;
+      }
+      .card-image {
+        width: 100%;
+        border-radius: 1rem;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="card">
+      <img src="./cactus_img.jpg" class="card-image" />
+      <span class="tag">Design</span>
+      <h3 class="card-title">Embracing Minimalism</h3>
+      <p class="card-body">
+        From minimalist sculptures to minimalist paintings, this blog will
+        inspire you to appreciate the beauty that lies in simplicity.
+      </p>
+      <hr class="card-divide" />
+      <p class="card-small-text">Annie Spratt</p>
+    </section>
+  </body>
+</html>
